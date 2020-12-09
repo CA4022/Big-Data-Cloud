@@ -39,9 +39,9 @@ High level steps (follow step-by-step [here](https://cloud.google.com/dataproc/d
 - Make sure your project is linked to a billing account (you will see automatically that this shows your credit.
 - You will need three services: Cloud DataProc, Compute Engine and Cloud Storage: looking for them in the Library page and Enable them if not enabled.
 - Create a Storage bucket
-- Activate the GCP shell and upload your file `my-file.py' using the upload menu option (or from git)
+- Activate the GCP shell and upload your file `my-file.py` using the upload menu option (or from git)
 - Create a cluster, remember to change your worker nodes to work with 2CPUs instead of 4 to stay within the free tier quota (you find the "create cluster "option in the Big Data section of the menu, under Dataproc)
-- Submit job (using gcloud command)
+- Submit job (using `gcloud` command)
 ```
 gcloud dataproc jobs submit pyspark my-file.py \
     --cluster=${CLUSTER} \
