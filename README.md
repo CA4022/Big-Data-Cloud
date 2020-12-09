@@ -35,7 +35,7 @@ We will focus on the use of the console in the steps below.
 ## Run a simple SPARK job onto Google DataProc
 In your GCP console, you will see already that a project named "My First Project" is created. The following steps are accessible by the menu list at the top left corner of your console window.
 
-High level steps (follow step-by-step [here](https://cloud.google.com/dataproc/docs/tutorials/gcs-connector-spark-tutorial):
+High level steps (follow step-by-step [here](https://cloud.google.com/dataproc/docs/tutorials/gcs-connector-spark-tutorial)):
 - Make sure your project is linked to a billing account (you will see automatically that this shows your credit.
 - You will need three services: Cloud DataProc, Compute Engine and Cloud Storage: looking for them in the Library page and Enable them if not enabled.
 - Create a Storage bucket
