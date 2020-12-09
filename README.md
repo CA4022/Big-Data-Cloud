@@ -1,18 +1,33 @@
 # Amazon Web Services and EMR
 In this labsheet we will deploy and run a simple MapReduce program onto AWS using Elastic MapReduce (EMR).
-Please refer to the official [AWS getting started guide](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-gs.html) for details.
+Please refer to the official  for details.
 
 Currently there is no free tier version of EMR but you can apply to get AWS credits through [AWS Educate](https://aws.amazon.com/education/awseducate/) as a student.
 
 ## Setting up a Cluster
-The key steps are as follows:
+The key steps are as follows (see the [AWS getting started guide](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-gs.html) for details):
 1. Develop your processing app (and identify your data)
 2. Upload yoru application onto Amazon S3
 3. Create an S3 bucket and an EC2 Key Pair
 4. Configure and launch your EMR cluster
-5. Monitor the cluster (optional), see [AWS manual](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-manage-view.html)
+5. Monitor the cluster (optional), see [EMR-view](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-manage-view.html)
 6. Retrieve output (on S3 or HDFS)
+
+## AWS EMR Resources:
+
+- [EMR Masterclass](https://www.youtube.com/watch?v=zc1_Rfb_txQ)
+- [What’s new in EMR, 2020](https://www.youtube.com/watch?v=1ZjTtCS3Kjk)
+- [Spark on EC2 and EMR](https://www.youtube.com/watch?v=u5dFozl1fW8)
+
 
 # Google DataProc
 An alternative managed Hadoop MapReduce cloud service that is recently catching up with AWS is Google Cloud DataProc.
 You can avail of 300$ credits as a new user when you sign in.
+
+Three key steps:
+- creating your appication
+- configure and start a cluster
+- submit your job to the cluster
+
+You can run MR jobs on Google DataProc in [different ways](https://cloud.google.com/dataproc/docs/quickstarts).
+We will focus on the use of the console in the steps below.
