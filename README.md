@@ -21,8 +21,7 @@ The key steps are as follows (see the [AWS getting started guide](https://docs.a
 
 
 # Google DataProc
-An alternative managed Hadoop MapReduce cloud service that is recently catching up with AWS is Google Cloud DataProc.
-You can avail of 300$ credits as a new user when you sign in.
+An alternative managed Hadoop MapReduce cloud service that is recently catching up with AWS is [Google Cloud DataProc](https://cloud.google.com/dataproc). You can avail of 300$ credits as a new user when you sign in and this is immediate.
 
 Three key steps:
 - creating your appication
@@ -31,3 +30,18 @@ Three key steps:
 
 You can run MR jobs on Google DataProc in [different ways](https://cloud.google.com/dataproc/docs/quickstarts).
 We will focus on the use of the console in the steps below.
+
+## Run a simple SPARK job onto Google DataProc
+In your GCP console, you will see already that a project named "My First Project" is created. The following steps are accessible by the menu list at the top left corner of your console window.
+
+High level steps (follow step-by-step [here](https://cloud.google.com/dataproc/docs/tutorials/gcs-connector-spark-tutorial):
+- Make sure your project is linked to a billing account (you will see automatically that this shows your credit.
+- You will need three services: Cloud DataProc, Compute Engine and Cloud Storage: looking for them in the Library page and Enable them if not enabled.
+- Create a Storage bucket
+- Activate the GCP shell and upload your files using the upload menu option (or from git)
+- Create a cluster, remember to change your worker nodes to work with 2CPUs instead of 4 to stay within the free tier quota (you find the "create cluster "option in the Big Data section of the menu, under Dataproc)
+- Submit job (using gcloud command)
+- Delete cluster
+
+
+
