@@ -27,6 +27,7 @@ Three key steps:
 - creating your appication
 - configure and start a cluster
 - submit your job to the cluster
+- DELETE your cluster (to avoid unnecessary billing)
 
 You can run MR jobs on Google DataProc in [different ways](https://cloud.google.com/dataproc/docs/quickstarts).
 We will focus on the use of the console in the steps below.
