@@ -52,7 +52,7 @@ gcloud dataproc jobs submit pyspark my-file.py \
 - Delete cluster
 
 ## DataProc Resources:
-- Details on how to redeem your credits have been sent via email
+- Details on how to redeem your credits can be found online
 - General Introduction to Google Cloud Platform (GCP) [Youtube Videos](https://youtu.be/4D3X6Xl5c_Y)
 - Intro to Hadoop and Spark on GCP [Youtube Video](https://www.youtube.com/watch?v=h1LvACJWjKc)
 - Qwik Start lab on Dataproc [Run by Google Cloud Platform](http://bit.ly/2KZaZJM)
